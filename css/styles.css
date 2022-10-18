@@ -30,8 +30,25 @@ body {
     letter-spacing: 0.03em;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    outline: 1px solid tomato;
+}
+
+h2, h3, p, ul {
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-inline-start: 0px;
+}
+
 /* LOGO */
 .logo {
+  display: inline-block;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -39,21 +56,37 @@ body {
   color: #000000;
   text-decoration: none;
   letter-spacing: 0.03em;
+  padding-bottom: 25px;
 }
 .logo-part {
   color: var(--third-text-color);
 }
 .logo-foot {
-  color: var(--secondary-text-color);
+  display: inline-block;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 /* HEADER */
+.page-header {
+
+}
+
 .link {
+    display: inline-block;
     color: var(--title-text-color);
     font-weight: 500;
     line-height: 1.143;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding-bottom: 32px;
 }
 .link.current {
     color: var(--third-text-color);
@@ -66,6 +99,8 @@ body {
 /* NAVIGATIONS */
 .nav {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* CONTACTS */
@@ -74,11 +109,16 @@ body {
     font-weight: 500;
     line-height: 1.143;
     letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
 .contact-link {
+    display: inline-block;
     color: var(--primary-text-color);
     text-decoration: none;
+    padding-bottom: 32px;
+
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -88,6 +128,7 @@ body {
 /* HERO */
 .hero {
     background-color: var(--title-hero-background-color);
+    text-align: center;
 }
 .hero-title {
     font-weight: 900;
@@ -97,6 +138,11 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+  
+
 }
 .hero-button {
     font-family: 'Roboto', sans-serif;
@@ -111,6 +157,9 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 4px;
+    padding: 10px 32px;
+    display: inline-block;
+    min-width: 216px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -124,11 +173,13 @@ body {
     line-height: 1.167;
     text-align: center;
     color: var(--title-text-color);
+    margin-bottom: 50px;
 }
 
 /* ОСОБЛИВОСТІ */
 .features {
-    line-height: 1.714;    
+    line-height: 1.714;
+    padding-bottom: 94px;
 }
 .features-list {
     list-style: none;
@@ -139,9 +190,13 @@ body {
     line-height: 1.143;
     text-transform: uppercase;
     color: var(--title-text-color);
+    margin-bottom: 10px;
 }
 
 /* ЧИМ МИ ЗАЙМАЄМОСЯ */
+.boxes {
+  padding-bottom: 94px;
+}
 .boxes-list {
     list-style: none;
 }
@@ -161,6 +216,7 @@ body {
   /* НАША КОМАНДА */
   .team {
     background-color: var(--secondary-backgroung-color);
+    padding-bottom: 94px;
   }
   .team-list {
     list-style: none;
@@ -186,6 +242,7 @@ body {
     list-style: none;
     font-style: normal;
     line-height: 1.714;
+    padding-bottom: 60px;
   }
   .adress-map {
     color: var(--secondary-text-color);
@@ -194,6 +251,7 @@ body {
   .adress-link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    padding-top: 9px;
   }
   .adress-map:hover,
   .adress-map:focus {
@@ -209,6 +267,9 @@ body {
     font-weight: 700;
     list-style: none;
   }
+  .port-buttons li {
+    margin-bottom: 50px;
+  }
   .filter-button {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -219,6 +280,8 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 4px;
+    padding: 6px 25px;
+    display: inline-block;
   }
   .filter-button:hover,
   .filter-button:focus,
@@ -237,10 +300,20 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
+    margin-bottom: 4px;
   }
   .port-card {
     background-color: var(--background-card-color);
   }
+
+  .port-card img {
+    margin-bottom: 20px;
+  }
+
+  .port-card p {
+    margin-bottom: 20px;
+  }
+
   .port-card-web {
     text-decoration: none;
     color: var(--primary-text-color);
