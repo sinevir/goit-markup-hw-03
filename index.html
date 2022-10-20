@@ -17,28 +17,30 @@
 <body>
 
     <!-- HEADER -->
-    <header class="page-header">
-        <nav class="container">
-            <a href="index.html" class="logo"><span class="logo-part">Web</span>Studio</a>
+    <header class="page-header container">
+        <nav>
             <ul class="nav">
-                <li><a href="./index.html" class="link current">Студія</a></li>
-                <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-                <li><a href="" class="link">Контакти</a></li>
+                <li class="item-logo"><a href="index.html" class="logo"><span class="logo-part">Web</span>Studio</a></li>
+                <li class="item"><a href="./index.html" class="link current">Студія</a></li>
+                <li class="item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
+                <li class="item"><a href="" class="link">Контакти</a></li>
             </ul>
         </nav>
-        <div class="container">
         <ul class="contacts">
-            <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
+            <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
-        </div>
     </header>
     <main>
 
         <!-- HERO -->
         <section class="hero">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero-button"
+            <div class="container">
+                <div class="container-hero-title">
+                    <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+                </div>
+            </div>
+                <button class="hero-button"
                     type="button">Замовити послугу</button>
         </section>
 
@@ -73,13 +75,13 @@
             <div class="container">
                 <h2 class="title-next">Чим ми займаємося</h2>
                 <ul class="boxes-list">
-                    <li>
+                    <li class="item">
                         <img class="box-picture" src="./images/whatwedo01.jpg" alt="Десктопні додатки" width="370" height="294">
                     </li>
-                    <li>
+                    <li class="item">
                         <img class="box-picture" src="./images/whatwedo02.jpg" alt="Мобільні додатки" width="370" height="294">
                     </li>
-                    <li>
+                    <li class="item">
                         <img class="box-picture" src="./images/whatwedo03.jpg" alt="Дизайнерські рішення" width="370" height="294">
                     </li>
                 </ul>
@@ -94,22 +96,22 @@
                     <li class="team-card">
                         <img src="./images/ourteam1-demjanenko.jpg" alt="Ігор Дем'яненко" width="270" height="260">
                         <h3 class="team-title">Ігор Дем'яненко</h3>
-                        <p>Product Designer</p>
+                        <p class="career">Product Designer</p>
                     </li>
                     <li class="team-card">
                         <img src="./images/ourteam2-repina.jpg" alt="Ольга Рєпіна" width="270" height="260">
                         <h3 class="team-title">Ольга Рєпіна</h3>
-                        <p>Frontend Developer</p>
+                        <p class="career">Frontend Developer</p>
                     </li>
                     <li class="team-card">
                         <img src="./images/ourteam3-tarasov.jpg" alt="Микола Тарасов" width="270" height="260">
                         <h3 class="team-title">Микола Тарасов</h3>
-                        <p>Marketing</p>
+                        <p class="career">Marketing</p>
                     </li>
                     <li class="team-card">
                         <img src="./images/ourteam4-yermakov.jpg" alt="Михайло Єрмаков" width="270" height="260">
                         <h3 class="team-title">Михайло Єрмаков</h3>
-                        <p>UI Designer</p>
+                        <p class="career">UI Designer</p>
                     </li>
                 </ul>
             </div> 
