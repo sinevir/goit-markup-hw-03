@@ -353,7 +353,6 @@ img {
   }
 
   .filter-button {
-    margin-right: 8px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -368,9 +367,9 @@ img {
     display: inline-block;
   }
 
-  /* .filter-button:not(:last-child) {
-    
-  } */
+   .filter-button:last-child {
+        margin-right: 8px;
+  }
 
   .filter-button:hover,
   .filter-button:focus,
